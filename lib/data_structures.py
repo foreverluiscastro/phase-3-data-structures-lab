@@ -48,7 +48,7 @@ get_spicy_food_by_cuisine(spicy_foods, "American")
 
 def sort_by_heat(spicy_foods):
     pass
-    sorted_list = sorted(spicy_foods, key=lambda d: d['heat_level'] )
+    sorted_list = sorted(spicy_foods, key=lambda food: food['heat_level'] )
     # ipdb.set_trace()
     return sorted_list
     
